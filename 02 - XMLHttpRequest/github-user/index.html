@@ -1,14 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Github User Search</title>
-  </head>
-  <body>
-    // Your code goes here
-    <script src="./main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>Github User Search</title>
+</head>
+
+<body>
+  <section class="container">
+    <h1>Github Card</h1>
+    <input type="text" placeholder="github url...">
+    <button type="submit"><i class="fa fa-search"></i></button>
+
+    <!-- user detail -->
+
+    <div>
+      <img class="user_img" src="" alt="">
+      <a class="user_link" href="#"></a>
+    </div>
+  </section>
+  <!--  -->
+  <section class="detail_information">
+    <div class="col-1-2">
+      <div class="flex">
+        <img class="display_img" src="" alt="">
+        <div class="wrap_detail">
+          <h2 id="name"></h2>
+          <h2 id="username"></h2>
+          <h2 id="place"></h2>
+          <h2 id="bio"></h2>
+          <h2 id="followers"></h2>
+          <h2 id='following'></h2 >
+          <h2 id="repo"></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-1-2">
+      <h3 >repositories</h3>
+      <ul>
+        
+      </ul>
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+  <script src="./main.js"></script>
+</body>
+
 </html>
